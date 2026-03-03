@@ -48,35 +48,35 @@ Student-api/
 ## Installation
 
 Clone the repository:
-
+```
 git clone https://github.com/Sudipta7-ops/Student-api.git  
 cd Student-api
-
+```
 Create virtual environment:
-
+```
 python -m venv venv
-
+```
 Activate environment (Windows):
-
+```
 venv\Scripts\activate
-
+```
 Install dependencies:
-
+```
 pip install -r requirements.txt
-
+```
 ---
 
 ## Database Setup
-
+```
 python manage.py makemigrations  
 python manage.py migrate
-
+```
 ---
 
 ## Run the Server
-
+```
 python manage.py runserver
-
+```
 Server will run at:
 
 http://127.0.0.1:8000/
