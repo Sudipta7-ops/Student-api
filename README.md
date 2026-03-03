@@ -1,5 +1,5 @@
 # Student Management System API
-Built using Django REST Framework
+Built using Django and Django REST Framework
 
 A RESTful API for managing student records with full CRUD functionality using Django and Django REST Framework.
 
@@ -36,12 +36,13 @@ The API allows creation, retrieval, updating, and deletion of student records st
 ---
 
 ## Project Structure
+```
 student-management-system-api/
 ├── config/              # Django project settings
 ├── manage.py
 ├── students/            # App containing models, views, serializers
 └── README.md
-
+```
 ---
 
 ## Installation
