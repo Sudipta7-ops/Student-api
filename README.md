@@ -36,7 +36,7 @@ The API allows creation, retrieval, updating, and deletion of student records st
 ---
 
 ## Project Structure
-Student-api/
+student-management-system-api/
 │
 ├── config/              # Django project settings
 ├── manage.py
@@ -49,8 +49,8 @@ Student-api/
 
 Clone the repository:
 ```
-git clone https://github.com/Sudipta7-ops/Student-api.git  
-cd Student-api
+git clone https://github.com/Sudipta7-ops/student-management-system-api.git
+cd student-management-system-api
 ```
 Create virtual environment:
 ```
