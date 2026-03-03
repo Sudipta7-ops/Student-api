@@ -84,23 +84,23 @@ http://127.0.0.1:8000/
 ---
 
 ## API Endpoints
-
+```
 GET     /students/  
 GET     /students/<id>/  
 POST    /students/  
 PUT     /students/<id>/  
 DELETE  /students/<id>/
-
+```
 ---
 
 ## Example Request Body
-
+```
 {
     "name": "John Doe",
     "age": 21,
     "email": "john@example.com"
 }
-
+```
 ---
 
 ## Learning Outcomes
