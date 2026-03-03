@@ -37,7 +37,6 @@ The API allows creation, retrieval, updating, and deletion of student records st
 
 ## Project Structure
 student-management-system-api/
-│
 ├── config/              # Django project settings
 ├── manage.py
 ├── students/            # App containing models, views, serializers
