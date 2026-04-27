@@ -5,6 +5,14 @@ A RESTful API for managing student records with full CRUD functionality using Dj
 
 ---
 
+## Live Demo
+
+**Live Demo:** [Click here](https://student-management-system-api-8nko.onrender.com/api/students/)
+
+> Note: Free tier — may take 50 seconds to wake up on first request.
+
+---
+
 ## Overview
 
 This project demonstrates backend API development using Django REST Framework. It follows a clean architecture with models, serializers, and views to implement RESTful endpoints.
@@ -19,6 +27,10 @@ The API allows creation, retrieval, updating, and deletion of student records st
 - Django
 - Django REST Framework
 - SQLite (default Django database)
+- Whitenoise
+- Gunicorn
+- Render (deployment)
+
 
 ---
 
@@ -85,11 +97,11 @@ http://127.0.0.1:8000/
 
 ## API Endpoints
 ```
-GET     /students/  
-GET     /students/<id>/  
-POST    /students/  
-PUT     /students/<id>/  
-DELETE  /students/<id>/
+GET     /api/students/  
+GET     /api/students/<id>/  
+POST    /api/students/  
+PUT     /api/students/<id>/  
+DELETE  /api/students/<id>/
 ```
 ---
 
@@ -119,3 +131,12 @@ DELETE  /students/<id>/
 - Pagination and filtering
 - Docker support
 - Cloud deployment
+
+---
+
+ ## Author
+
+**Sudipta Barik** — [LinkedIn](https://linkedin.com/in/sudipta-barik) | [GitHub](https://github.com/Sudipta7-ops)
+"@
+
+---
