@@ -130,7 +130,6 @@ DELETE  /api/students/<id>/
 - JWT authentication
 - Pagination and filtering
 - Docker support
-- Cloud deployment
 
 ---
 
